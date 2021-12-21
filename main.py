@@ -1,8 +1,10 @@
+#https://github.com/mintway0341/chromakey_gui
 #크기가 같은 배경 이미지와 크로마키 이미지(초록 또는 파랑)를 불러오면 합성을 해주는 GUI 프로그램입니다.
 #초록색 크로마키와 파란색 크로마키를 모두 지원하며, 라디오 버튼으로 선택할 수 있습니다.
 #크로마키 효과를 위해 배경 이미지에 블러 효과를 적용하였으며 사용자가 심도를 조절할 수 있습니다.
 #Default 민감도로 합성된 이미지가 부자연스럽다면 사용자가 민감도를 조절할 수 있습니다.
 #합성된 이미지를 저장하는 기능도 물론 구현되어 있습니다.
+
 from tkinter import *
 from tkinter import filedialog as fd
 from tkinter import messagebox as mb
